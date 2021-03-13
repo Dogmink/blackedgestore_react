@@ -1,0 +1,19 @@
+<svg id="Layer_3" enable-background="new 0 0 64 64" height="512" viewBox="0 0 64 64" width="512"
+    xmlns="http://www.w3.org/2000/svg">
+    <g>
+        <path className="fa-primary" fill="currentColor" d="m7 7v4.586l4.586-4.586z" />
+        <path className="fa-primary" fill="currentColor"
+            d="m35 37h-18v-2h18v-2h-18v-2h18v-3c0-.552.448-1 1-1h5v-24h-38v50h14v-9c0-.553.448-1 1-1h17zm-18-30h22v2h-22zm0 4h22v2h-22zm0 8h22v2h-22zm0 4h22v2h-22zm-12-5c0-.552.448-1 1-1h8c.552 0 1 .448 1 1v8c0 .552-.448 1-1 1h-8c-.552 0-1-.448-1-1zm10 32c0 .553-.448 1-1 1h-8c-.552 0-1-.447-1-1v-8c0-.553.448-1 1-1h8c.552 0 1 .447 1 1zm0-19.586v7.586c0 .553-.448 1-1 1h-8c-.552 0-1-.447-1-1v-8c0-.552.448-1 1-1h7.586l1.707-1.707 1.414 1.414zm0-24v7.586c0 .552-.448 1-1 1h-8c-.552 0-1-.448-1-1v-8c0-.552.448-1 1-1h7.586l1.707-1.707 1.414 1.414z" />
+        <path className="fa-primary" fill="currentColor" d="m13 13v-4.586l-4.586 4.586z" />
+        <path className="fa-primary" fill="currentColor" d="m13 37v-4.586l-4.586 4.586z" />
+        <path className="fa-primary" fill="currentColor" d="m7 43h6v6h-6z" />
+        <path className="fa-primary" fill="currentColor" d="m7 31v4.586l4.586-4.586z" />
+        <path className="fa-primary" fill="currentColor" d="m27 45h4v4h-4z" />
+        <path className="fa-primary" fill="currentColor" d="m33 50c0 .553-.448 1-1 1h-6c-.552 0-1-.447-1-1v-5h-6v16h20v-16h-6zm4 9h-4v-2h4zm0-4h-4v-2h4z" />
+        <path className="fa-primary" fill="currentColor" d="m49 45h4v4h-4z" />
+        <path className="fa-primary" fill="currentColor" d="m45 29h2v4h-2z" />
+        <path className="fa-primary" fill="currentColor" d="m55 45v5c0 .553-.448 1-1 1h-6c-.552 0-1-.447-1-1v-5h-6v16h20v-16zm4 14h-4v-2h4zm0-4h-4v-2h4z" />
+        <path className="fa-primary" fill="currentColor" d="m55 43v-14h-6v5c0 .553-.448 1-1 1h-4c-.552 0-1-.447-1-1v-5h-6v14zm-2-2h-4v-2h4z" />
+        <path className="fa-primary" fill="currentColor" d="m7 19h6v6h-6z" />
+    </g>
+</svg>
