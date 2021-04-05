@@ -29,7 +29,6 @@ export default function Nav() {
           clasesNombre={"nav-sub-item"}
           specialBtn={"2"}
           dinamicID={"backBtn"}
-          name={"menu"}
         />
         <ItemNav
           spanName={"secondary-span-item"}
