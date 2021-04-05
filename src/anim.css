@@ -1,0 +1,182 @@
+.fadeIn{
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+  }
+  
+  @keyframes fadeIn {
+    from{
+      opacity: 0;
+    } to {
+      opacity: 1;
+    }
+  }
+  
+  
+  .scaleAnim{
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    -webkit-animation-name: scaleAnim;
+    animation-name: scaleAnim;
+  }
+  
+  @keyframes scaleAnim{
+    0%{transform:scale(0);}
+    95%{transform:scale(1.05);}
+    100%{transform:scale(1);}
+  }
+  
+  
+  
+  .fadeInDown{
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+  
+  }
+  
+  
+  @keyframes fadeInDown {
+    from{
+      opacity: 0;
+      -webkit-transform: translate3d(0, -100%, 0);
+      transform: translate3d(0, -100%, 0);
+    } to {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  
+  .fadeInUp{
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+  
+  }
+  
+  @keyframes fadeInUp {
+    from{
+      opacity: 0;
+      -webkit-transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 100%, 0);
+    } to {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  .fadeInDownNav{
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: fadeInDownNav;
+    animation-name: fadeInDownNav;
+  
+  }
+  
+  @keyframes fadeInDownNav {
+    from{
+      opacity: 0;
+      -webkit-transform: translate3d(0, -300%, 0);
+      transform: translate3d(0, -300%, 0);
+    } to {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  .fadeOutUpNav{
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: fadeOutUpNav;
+    animation-name: fadeOutUpNav;
+  
+  }
+  
+  @keyframes fadeOutUpNav {
+    from{
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    } to {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 300%, 0);
+      transform: translate3d(0, 300%, 0);
+    }
+  }
+  
+  
+  /* =======================NAV ANIMATION============================ */
+  
+  
+  .fadeInRight{
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: fadeInRight;
+    animation-name: fadeInRight;
+  }
+  
+  @keyframes fadeInRight{
+    0%{opacity: 0; margin-left: 30rem;}
+    100%{opacity: 1;}
+  }
+  
+  .fadeOutRight{
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: fadeOutRight;
+    animation-name: fadeOutRight;
+  }
+  
+  @keyframes fadeOutRight{
+    0%{opacity: 1;}
+    100%{opacity: 0; margin-left: 30rem;}
+  }
+  
+  .fadeInLeft{
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: fadeInLeft;
+    animation-name: fadeInLeft;
+  }
+  
+  @keyframes fadeInLeft{
+    0%{opacity: 0; margin-left: -20rem;}
+    100%{opacity: 1;}
+  }
+  
+  .fadeOutLeft{
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: fadeOutLeft;
+    animation-name: fadeOutLeft;
+  }
+  
+  @keyframes fadeOutLeft{
+    0%{opacity: 1;}
+    100%{opacity: 0; margin-left: -20rem;}
+  }

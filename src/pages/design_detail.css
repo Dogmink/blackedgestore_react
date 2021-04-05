@@ -1,0 +1,15 @@
+.itemsContentDetail {
+  background-color: var(--bg-secondary);
+  border-radius: 25px;
+  width: fit-content;
+}
+
+@media only screen and (max-width: 600px) {
+  .itemsContentDetail {
+    border-radius: 25px;
+    background-color: var(--bg-secondary);
+    padding: 0 2rem;
+    width: 74%;
+    display: inline-flex;
+  }
+}

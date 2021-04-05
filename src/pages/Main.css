@@ -1,0 +1,29 @@
+main {
+  margin-left: 6rem;
+  overflow: hidden;
+  height: 90%;
+  width: 90%;
+}
+
+main::-webkit-scrollbar {
+  display: none;
+}
+
+.input-login:-webkit-autofill,
+.input-login:-webkit-autofill:hover,
+.input-login:-webkit-autofill:focus,
+.input-login:-webkit-autofill:active {
+  box-shadow: 0 0 0px 1000px var(--bg-secondary) inset;
+  -webkit-box-shadow: 0 0 0px 1000px var(--bg-secondary) inset;
+  -webkit-text-fill-color: var(--text-primary);
+}
+
+@media only screen and (max-width: 600px) {
+  main {
+    margin-left: 0rem;
+    justify-content: center;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 6rem;
+  }
+}

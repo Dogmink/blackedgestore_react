@@ -1,0 +1,120 @@
+.designDetailContentImg {
+  padding: 5rem;
+}
+
+.designDetailContentImg img {
+  box-shadow: 0 0 15px black;
+}
+
+.designDetailContentDesc {
+  font-size: 24px;
+  padding: 5rem;
+  display: block;
+}
+
+.designDetailContentDesc a {
+  text-decoration: none;
+  color: var(--bg-secondary);
+  background-color: var(--text-primary);
+  text-transform: uppercase;
+  padding: 5px 20px;
+}
+
+.designDetailContentDesc label {
+  color: var(--bg-secondary);
+  background-color: var(--text-primary);
+  padding: 5px 20px;
+  text-transform: uppercase;
+  letter-spacing: 20px;
+}
+
+.designDetailContentDesc > textarea {
+  margin-top: 4rem;
+  background-color: transparent;
+  color: var(--text-primary);
+  border: none;
+  font-size: 20px;
+  resize: none;
+  outline: none;
+  width: 100%;
+}
+
+.designDetailContentDesc > textarea:focus {
+  border: none;
+  outline: none;
+}
+
+.contentDesignDetail {
+  padding: 5rem;
+}
+
+.designDetailCompra {
+  margin-top: 4rem;
+  align-items: center;
+  display: inline-flex;
+  justify-content: space-between;
+  color: var(--text-primary);
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .contentDetail {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: block;
+  }
+
+  .contentDesignDetail{
+      padding: 2rem 0;
+  }
+
+  .designDetailContentDesc {
+    width: 100%;
+  }
+
+  /* =================DESCRIPCION================= */
+
+  .designDetailContentDesc {
+    font-size: 24px;
+    padding: 0;
+    display: block;
+  }
+
+  .designDetailContentDesc a {
+    text-decoration: none;
+    color: var(--bg-secondary);
+    background-color: var(--text-primary);
+    text-transform: uppercase;
+    padding: 5px 20px;
+  }
+
+  .designDetailContentDesc label {
+    color: var(--bg-secondary);
+    background-color: var(--text-primary);
+    padding: 5px 20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+  }
+
+  .designDetailContentDesc > textarea {
+    margin-top: 4rem;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    resize: none;
+    outline: none;
+    width: 100%;
+  }
+
+  /* ================IMG=============== */
+
+  .designDetailContentImg {
+    padding: 0;
+  }
+
+  .designDetailContentImg img {
+    box-shadow: 0 0 15px black;
+    width: 100%;
+  }
+}
