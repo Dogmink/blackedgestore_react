@@ -1,7 +1,7 @@
 .formUserLogContent {
   font-size: 24px;
-  background-color: black;
-  opacity: 0.85;
+  background-color: var(--bg-secondary);
+  opacity: 0.8;
   width: fit-content;
   padding: 5rem 10rem;
   display: grid;
@@ -11,14 +11,13 @@
   margin-top: 10%;
   text-align: center;
   border-radius: 25px;
-  border-left: 10px solid var(--hovercolor1);
   color: var(--logo-primary);
   max-width: 700px;
 }
 
 .labelFormLog {
   text-transform: uppercase;
-  color: white;
+  color: var(--text-secondary);
   letter-spacing: 32px;
   font-size: 32px;
 }

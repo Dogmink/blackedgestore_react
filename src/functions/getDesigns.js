@@ -1,5 +1,5 @@
 export default function getDesigns({ keyid }) {
-  const baseUrl = `http://localhost/API_BE/?${keyid}`;
+  const baseUrl = `https://blackedgestore.com/API/designs/?${keyid}`;
   return fetch(baseUrl)
     .then((res) => res.json())
     .then((data) => {

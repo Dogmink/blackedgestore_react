@@ -1,5 +1,3 @@
-import "../svg";
-
 export default function toggleIcons() {
   let menu = document.getElementsByName("menu");
   let btnProductos = document.getElementById("btnProductos");
@@ -13,7 +11,7 @@ export default function toggleIcons() {
 
   btnProductos.value = 1;
 
-  menu[0].addEventListener("click", function (e) {
+  menu[0].addEventListener("click", function (e) { 
     e.preventDefault();
     toggleIcons();
   });
