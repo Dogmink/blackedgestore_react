@@ -1,9 +1,8 @@
 import React, {useEffect} from 'react';
-import './item-nav.js';
-import './nav.css';
-import Svg from '../svg.js';
-import toggleTheme from '../functions/toggletheme';
-import toggleIcons from '../functions/toggleicons';
+import 'styles/nav/nav.css';
+import Svg from './svg.js';
+import toggleTheme from 'functions/toggletheme';
+import toggleIcons from 'functions/toggleicons';
 import {Link} from 'wouter'
 
 
@@ -16,7 +15,7 @@ export default function ItemNav ({IconName, logo, name, specialBtn, clasesNombre
     if(logo === '1'){
     return (
         <li className="logo">
-          <Link to="/home" className="nav-link">
+          <Link to="/" className="nav-link">
             <span className="link-text logo-text">{name}</span>
             <Svg nameSvg={IconName} />
           </Link>  
@@ -39,7 +38,7 @@ export default function ItemNav ({IconName, logo, name, specialBtn, clasesNombre
           <Svg nameSvg={'Carrito'} />
           <span className="link-text">Carrito</span>
         </Link>
-        <Link to={'/user/login'} className="nav-link">
+        <Link to={'/login'} className="nav-link">
           <Svg nameSvg={'LoginReg'}/>
         <span className="link-text">Login / Register</span>
         </Link>

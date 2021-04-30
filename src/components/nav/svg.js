@@ -1,5 +1,5 @@
 import React from "react";
-import "./functions/toggleicons";
+import "functions/toggleicons";
 
 export default function Svg({ nameSvg }) {
   if (nameSvg === "Productos") {

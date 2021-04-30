@@ -1,8 +1,8 @@
 import React, {useEffect, useState} from 'react';
-import './item-nav.js';
-import './nav.css';
-import Svg from './svg.js';
-import toggleTheme from './functions/toggletheme';
+import '@components/nav/item-nav.js';
+import '@styles/nav/nav.css';
+import Svg from '@components/designs/svg.js';
+import toggleTheme from '@functions/toggletheme';
 
 
 export default function ItemNav ({IconName, logo, name, specialBtn, clasesNombre}){

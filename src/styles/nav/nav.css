@@ -1,7 +1,7 @@
 nav {
     width: 5rem;
     height: 90%;
-    margin-top: 3.5%;
+    margin-top: 3%;
     position: fixed;
     background-color: var(--bg-primary);
     z-index: 999;

@@ -1,7 +1,7 @@
 import React from "react";
-import "./nav.css";
+import "styles/nav/nav.css";
 import ItemNav from "./item-nav";
-import "../functions/toggleicons";
+import "functions/toggleicons";
 
 export default function Nav() {
   return (
@@ -56,7 +56,6 @@ export default function Nav() {
           liName={"li-secondary"}
           IconName={"Misc"}
           clasesNombre={"nav-sub-item"}
-          catid={"all"}
         />
         <ItemNav
           IconName={"Theme"}
